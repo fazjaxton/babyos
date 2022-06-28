@@ -2,7 +2,7 @@
 
 For kids who like to push buttons
 
-[example](https://imgur.com/a/2x8vo82)
+![demo](https://i.giphy.com/media/QJFVoO6OcrBtBdpmqe/giphy.webp)
 
 ## Description
 
@@ -13,16 +13,22 @@ When my kids were little they always liked to push the buttons on the computer. 
 Depends on cmake, libfmt, sfml:
 
 Arch:
-    # pacman -S base-devel cmake sfml fmt
+```
+# pacman -S base-devel cmake sfml fmt
+```
 
 Debian/Ubuntu:
-    # apt-get install build-essential cmake libsfml-dev libfmt-dev
+```
+# apt-get install build-essential cmake libsfml-dev libfmt-dev
+```
 
 ## Building
 
 Use normal CMake build commands or just run the build script:
 
-    $ ./build.sh -j8
+```
+$ ./build.sh -j8
+```
 
 The program is built in the "build" directory, `build/babyos`
 
